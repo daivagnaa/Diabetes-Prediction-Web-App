@@ -397,7 +397,7 @@ def main():
         <hr>
         <p><em>⚠️ Medical Disclaimer: This application is for educational and screening purposes only. 
         Always consult qualified healthcare professionals for medical diagnosis and treatment.</em></p>
-        <p><small>© 2024 Daivagna Parmar | Built with ❤️ using Streamlit & Python</small></p>
+        <p><small>© 2025 Daivagna Parmar | Built with ❤️ using Streamlit & Python</small></p>
     </div>
     """, unsafe_allow_html=True)
 
