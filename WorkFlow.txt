@@ -1,0 +1,4 @@
+1. Diabetes Data
+2. Data Preprocessing
+3. Train Test Split
+4. Support Vector Machine Classifier
