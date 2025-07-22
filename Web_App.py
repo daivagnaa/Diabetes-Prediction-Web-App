@@ -256,52 +256,60 @@ def main():
         st.markdown("#### 🏥 Medical History")
         Pregnancies = st.number_input(
             "👶 Number of Pregnancies", 
-            min_value=0, max_value=20, value=0, step=1,
-            help="Total number of pregnancies"
+            min_value=0, max_value=20, value=None, step=1,
+            help="Total number of pregnancies",
+            placeholder="Enter number of pregnancies"
         )
         
         Glucose = st.number_input(
             "🍬 Glucose Level (mg/dL)", 
-            min_value=0, max_value=300, value=100, step=1,
-            help="Plasma glucose concentration (Normal: 70-100 mg/dL)"
+            min_value=0, max_value=300, value=None, step=1,
+            help="Plasma glucose concentration (Normal: 70-100 mg/dL)",
+            placeholder="Enter glucose level"
         )
         
         BloodPressure = st.number_input(
             "💓 Blood Pressure (mmHg)", 
-            min_value=0, max_value=200, value=80, step=1,
-            help="Diastolic blood pressure (Normal: 60-80 mmHg)"
+            min_value=0, max_value=200, value=None, step=1,
+            help="Diastolic blood pressure (Normal: 60-80 mmHg)",
+            placeholder="Enter blood pressure"
         )
         
         SkinThickness = st.number_input(
             "📏 Skin Thickness (mm)", 
-            min_value=0, max_value=100, value=20, step=1,
-            help="Triceps skin fold thickness"
+            min_value=0, max_value=100, value=None, step=1,
+            help="Triceps skin fold thickness",
+            placeholder="Enter skin thickness"
         )
     
     with col2:
         st.markdown("#### 🔬 Metabolic Markers")
         Insulin = st.number_input(
             "💉 Insulin Level (μU/mL)", 
-            min_value=0, max_value=900, value=80, step=1,
-            help="2-Hour serum insulin (Normal: 16-166 μU/mL)"
+            min_value=0, max_value=900, value=None, step=1,
+            help="2-Hour serum insulin (Normal: 16-166 μU/mL)",
+            placeholder="Enter insulin level"
         )
         
         BMI = st.number_input(
             "⚖️ BMI (kg/m²)", 
-            min_value=10.0, max_value=70.0, value=25.0, step=0.1,
-            help="Body Mass Index (Normal: 18.5-24.9)"
+            min_value=10.0, max_value=70.0, value=None, step=0.1,
+            help="Body Mass Index (Normal: 18.5-24.9)",
+            placeholder="Enter BMI value"
         )
         
         DiabetesPedigreeFunction = st.number_input(
             "🧬 Diabetes Pedigree Function", 
-            min_value=0.0, max_value=3.0, value=0.5, step=0.001, format="%.3f",
-            help="Genetic diabetes likelihood score"
+            min_value=0.0, max_value=3.0, value=None, step=0.001, format="%.3f",
+            help="Genetic diabetes likelihood score",
+            placeholder="Enter pedigree function value"
         )
         
         Age = st.number_input(
             "🎂 Age (years)", 
-            min_value=1, max_value=120, value=30, step=1,
-            help="Age in years"
+            min_value=1, max_value=120, value=None, step=1,
+            help="Age in years",
+            placeholder="Enter age"
         )
     
     # Prediction Button
