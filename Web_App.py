@@ -176,7 +176,6 @@ def main():
     st.markdown("""
     <div class="developer-info">
         <h3>👨‍💻 Developed by Daivagna Parmar</h3>
-        <p>🎯 Data Scientist & ML Engineer | 🚀 Building AI Solutions for Healthcare</p>
         <a href="https://github.com/daivagnaa" target="_blank" class="github-link">
             🔗 GitHub Profile
         </a>
@@ -230,7 +229,7 @@ def main():
         """, unsafe_allow_html=True)
     
     # Input Form in Two Columns
-    st.markdown("### 🔍 Health Parameter Input")
+    st.markdown("### 🔍 Health Parameter Input (Enter Details Precisely)")
     
     col1, col2 = st.columns(2)
     
@@ -356,8 +355,6 @@ def main():
         <h3>👨‍💻 About the Developer</h3>
         <div class="contact-info">
             <h4>Daivagna Parmar</h4>
-            <p>🎓 Data Scientist & Machine Learning Engineer</p>
-            <p>🌟 Passionate about AI in Healthcare & Medical Technology</p>
             <br>
             <a href="https://github.com/daivagnaa" target="_blank" class="github-link">
                 🔗 GitHub: @daivagnaa
