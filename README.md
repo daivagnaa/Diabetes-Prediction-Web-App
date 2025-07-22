@@ -182,7 +182,7 @@ For making predictions, provide the following 8 features in order:
 
 The application is deployed on **Streamlit Community Cloud** for free public access:
 - **Platform**: Streamlit Cloud
-- **URL**: [diabetes-prediction-web-app.streamlit.app](https://diabetes-prediction-web-app.streamlit.app)
+- **URL**: [diabetes-prediction-web-app.streamlit.app](https://diabetes-predict-web.streamlit.app)
 - **Auto-deployment**: Linked to GitHub repository for continuous deployment
 - **Uptime**: 99.9% availability with global CDN
 
