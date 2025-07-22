@@ -204,7 +204,7 @@ The application is deployed on **Streamlit Community Cloud** for free public acc
 **Daivagna Parmar**
 - 📧 **Email**: [devparmar1895@gmail.com](mailto:devparmar1895@gmail.com)
 - 🔗 **GitHub**: [@daivagnaa](https://github.com/daivagnaa)
-- 💼 **LinkedIn**: Connect for collaborations and opportunities
+- 💼 **LinkedIn**: [Daivagna Parmar](https://in.linkedin.com/in/daivagna-parmar-949315316)
 
 ## 📜 License & Disclaimer
 
