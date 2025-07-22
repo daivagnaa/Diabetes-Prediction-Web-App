@@ -338,7 +338,7 @@ def main():
         <h3>👨‍💻 About the Developer</h3>
         <div class="contact-info">
             <h4>Daivagna Parmar</h4>
-            
+            <hr>
             <a href="https://github.com/daivagnaa" target="_blank" class="github-link">
                 🔗 GitHub: @daivagnaa
             </a>
