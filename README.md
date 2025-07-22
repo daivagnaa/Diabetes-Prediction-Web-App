@@ -4,7 +4,7 @@ This project implements a machine learning solution to predict diabetes using th
 
 ## 🚀 Live Demo
 
-**Web Application**: [Diabetes Risk Predictor](https://diabetes-prediction-web-app.streamlit.app) 
+**Web Application**: [Diabetes Risk Predictor](https://diabetes-predict-web.streamlit.app) 
 
 ## Project Structure
 
