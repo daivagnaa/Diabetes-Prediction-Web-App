@@ -172,18 +172,6 @@ def main():
     st.markdown('<h1 class="main-header">🩺 Diabetes Risk Predictor</h1>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Advanced ML-Powered Health Assessment Tool</p>', unsafe_allow_html=True)
     
-    # Developer Information Box
-    st.markdown("""
-    <div class="developer-info">
-        <h3>👨‍💻 Developed by Daivagna Parmar</h3>
-        <a href="https://github.com/daivagnaa" target="_blank" class="github-link">
-            🔗 GitHub Profile
-        </a>
-        <a href="mailto:devparmar1895@gmail.com" class="email-link">
-            📧 Contact Me
-        </a>
-    </div>
-    """, unsafe_allow_html=True)
     
     # Sidebar Information
     with st.sidebar:
@@ -221,12 +209,7 @@ def main():
     col1, col2, col3 = st.columns([1, 3, 1])
     
     with col2:
-        st.markdown("""
-        <div class="info-card">
-            <h4>📝 Please Enter Your Health Parameters</h4>
-            <p>Fill in all the medical information below for an accurate diabetes risk assessment.</p>
-        </div>
-        """, unsafe_allow_html=True)
+        pass
     
     # Input Form in Two Columns
     st.markdown("### 🔍 Health Parameter Input (Enter Details Precisely)")
