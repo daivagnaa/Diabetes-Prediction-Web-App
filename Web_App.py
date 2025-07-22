@@ -90,7 +90,7 @@ st.markdown("""
 # Loading the saved model
 @st.cache_resource
 def load_model():
-    return pickle.load(open(r'E:\Data Science\Projects\02. Diabites Prediction\trained_model.sav', 'rb'))
+    return pickle.load(open('trained_model.sav', 'rb'))
 
 loaded_model = load_model()
 
