@@ -81,53 +81,89 @@ st.markdown("""
         box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
     .contact-info {
-        background: #ffffff;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         padding: 1.5rem;
         border-radius: 12px;
         box-shadow: 0 4px 20px rgba(0,0,0,0.1);
         margin: 1rem 0;
         text-align: center;
+        color: white;
+    }
+    .contact-info h4 {
+        color: white;
+        margin-bottom: 0.5rem;
+    }
+    .contact-info hr {
+        border-color: rgba(255, 255, 255, 0.3);
+        margin: 1rem 0;
     }
     .github-link {
         display: inline-block;
-        background: #333;
+        background: rgba(255, 255, 255, 0.2);
         color: white !important;
         padding: 0.5rem 1rem;
         border-radius: 8px;
         text-decoration: none;
         margin: 0.5rem;
         transition: all 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.3);
     }
     .github-link:hover {
-        background: #555;
+        background: rgba(255, 255, 255, 0.3);
         transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     }
     .email-link {
         display: inline-block;
-        background: #ea4335;
+        background: rgba(234, 67, 53, 0.8);
         color: white !important;
         padding: 0.5rem 1rem;
         border-radius: 8px;
         text-decoration: none;
         margin: 0.5rem;
         transition: all 0.3s ease;
+        border: 1px solid rgba(234, 67, 53, 0.5);
     }
     .email-link:hover {
-        background: #c23321;
+        background: rgba(194, 51, 33, 0.9);
         transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     }
     .footer {
         text-align: center;
-        color: #666;
+        color: var(--text-color);
         padding: 2rem;
-        border-top: 2px solid #eee;
+        border-top: 2px solid rgba(102, 126, 234, 0.3);
         margin-top: 3rem;
+        background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+        border-radius: 15px;
+    }
+    .footer h3 {
+        color: #667eea;
+        margin-bottom: 1rem;
+    }
+    .footer p {
+        color: var(--text-color);
+        opacity: 0.8;
     }
     .parameter-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
         margin: 1rem 0;
+    }
+    
+    /* Dark theme compatibility */
+    @media (prefers-color-scheme: dark) {
+        .footer {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            border-top: 2px solid rgba(102, 126, 234, 0.4);
+        }
+        .info-card {
+            background: rgba(102, 126, 234, 0.1);
+            border-left: 4px solid #667eea;
+            color: var(--text-color);
+        }
     }
 </style>
 """, unsafe_allow_html=True)
