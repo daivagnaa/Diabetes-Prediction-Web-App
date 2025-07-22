@@ -168,12 +168,14 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Loading saved model
+# Loading saved model and scaler
 @st.cache_resource
-def load_model():
-    return pickle.load(open('trained_model.sav', 'rb'))
+def load_model_and_scaler():
+    model = pickle.load(open('trained_model.sav', 'rb'))
+    scaler = pickle.load(open('scaler.sav', 'rb'))
+    return model, scaler
 
-loaded_model = load_model()
+loaded_model, scaler = load_model_and_scaler()
 
 # Creating a function for prediction
 def diabetes_prediction(input_data):
@@ -187,11 +189,13 @@ def diabetes_prediction(input_data):
         
         # changing the input_data to numpy array
         input_data_as_numpy_array = np.asarray(input_data_float)
-
-        # reshape the array as we are predicting for one instance
         input_data_reshaped = input_data_as_numpy_array.reshape(1,-1)
-
-        prediction = loaded_model.predict(input_data_reshaped)
+        
+        # ✅ Standardize the input data using saved scaler
+        std_data = scaler.transform(input_data_reshaped)
+        
+        # Make prediction on standardized data
+        prediction = loaded_model.predict(std_data)
         
         if (prediction[0] == 0):
             return '✅ Good News! The person is likely NOT diabetic'
