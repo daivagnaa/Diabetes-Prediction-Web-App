@@ -287,7 +287,7 @@ def main():
     <div class="footer">
         <h4>🔬 About the Developer</h4>
         <p><strong>Daivagna Parmar</strong></p>
-        <p>📧 Contact: devparmar1895@gmail.com | 🌐 GitHub : [Daivagna Parmar](https://github.com/daivagnaa)</p>
+        <p>📧 Contact: devparmar1895@gmail.com | 🌐 <a href="https://github.com/daivagnaa">GitHub</a></p>
         <hr>
         <p><em>Disclaimer: This tool is for educational purposes only and should not replace professional medical advice.</em></p>
     </div>
