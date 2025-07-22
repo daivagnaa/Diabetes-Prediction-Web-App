@@ -100,7 +100,7 @@ pip install numpy pandas scikit-learn streamlit pillow
 ```
 
 ### 🌐 Access Web Application
-Visit the live demo: **[Diabetes Risk Predictor](https://diabetes-prediction-web-app.streamlit.app)**
+Visit the live demo: **[Diabetes Risk Predictor](https://diabetes-predict-web.streamlit.app)**
 
 ### 💻 Run Locally
 
