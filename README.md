@@ -181,17 +181,6 @@ Example input used in the CLI script:
 
 ## Getting Started
 
-### Prerequisites
-
-<<<<<<< HEAD
-- Python 3.x
-- A virtual environment is recommended
-- Dependencies listed in `requirements.txt`
-=======
-### 🌐 Access Web Application
-Visit the live demo: **[Diabetes Risk Predictor](https://diabetes-predict-web.streamlit.app)**
->>>>>>> af5ad9d3b1e57d0240381dec343be54c8d745957
-
 ### Installation
 
 1. Clone or open the project folder.
@@ -229,11 +218,6 @@ python predictive_system.py
 
 Open the notebook for the training workflow:
 
-<<<<<<< HEAD
-```bash
-jupyter notebook DiabetesPred.ipynb
-```
-=======
 For making predictions, provide the following 8 features in order:
 
 | Parameter | Range | Unit | Description |
@@ -250,80 +234,8 @@ For making predictions, provide the following 8 features in order:
 **Example Non-Diabetic Input**: `(1, 85, 66, 29, 0, 26.6, 0.351, 31)`
 **Example Diabetic Input**: `(8, 183, 64, 0, 0, 23.3, 0.672, 32)`
 
-## ✨ Web Application Features
-
-### 🎨 User Experience
-- **Modern Design**: Beautiful gradient backgrounds and animations
-- **Interactive Elements**: Hover effects and smooth transitions
-- **Loading Animations**: Spinner during prediction analysis
-- **Success Celebrations**: Balloons for negative diabetes predictions
-- **Color-coded Results**: Green for safe, red for high-risk predictions
-
-### 🏥 Health Features
-- **Comprehensive Health Tips**: Tailored recommendations based on results
-- **Emergency Guidelines**: Important steps for high-risk cases
-- **Medical Disclaimers**: Clear ethical use guidelines
-- **Parameter Guidelines**: Helpful ranges and normal values
-
-### 👨‍💻 Developer Features
-- **Professional Branding**: Prominent developer information
-- **Contact Integration**: Direct GitHub and email links
-- **Dark Theme Support**: Automatic adaptation to user preferences
-- **Responsive Design**: Works on desktop and mobile devices
-
-## 🛠 Technologies Used
-
-- **Python 3.x**: Core programming language
-- **Pandas**: Data manipulation and analysis
-- **NumPy**: Numerical computing
-- **Scikit-learn**: Machine learning algorithms and preprocessing
-- **Streamlit**: Web application framework and cloud deployment
-- **Pickle**: Model and scaler serialization
-- **Jupyter Notebook**: Interactive development environment
-- **CSS**: Custom styling for enhanced UI
-
-## 🌐 Deployment
-
-The application is deployed on **Streamlit Community Cloud** for free public access:
-- **Platform**: Streamlit Cloud
-- **URL**: [diabetes-prediction-web-app.streamlit.app](https://diabetes-predict-web.streamlit.app)
-- **Auto-deployment**: Linked to GitHub repository for continuous deployment
-- **Uptime**: 99.9% availability with global CDN
-
-## 🔮 Future Enhancements
-
-- [ ] 📊 Add interactive data visualization and EDA charts
-- [ ] 🤖 Implement ensemble methods (Random Forest, Gradient Boosting)
-- [ ] 🔍 Include cross-validation and hyperparameter tuning
-- [ ] 📈 Add model interpretability features (SHAP, LIME)
-- [ ] ☁️ Deploy to additional cloud platforms (Heroku, AWS, Azure)
-- [ ] 📱 Create mobile application version
-- [ ] 🎯 Add confidence scores and probability distributions
-- [ ] 📊 Include batch prediction capabilities
-- [ ] 🔐 Add user authentication and prediction history
-- [ ] 🌍 Multi-language support
-
-## 👨‍💻 Developer
-
-**Daivagna Parmar**
-- 📧 **Email**: [devparmar1895@gmail.com](mailto:devparmar1895@gmail.com)
-- 🔗 **GitHub**: [@daivagnaa](https://github.com/daivagnaa)
-- 💼 **LinkedIn**: [Daivagna Parmar](https://in.linkedin.com/in/daivagna-parmar-949315316)
-
-## 📜 License & Disclaimer
-
-⚠️ **Medical Disclaimer**: This application is for educational and screening purposes only. Always consult qualified healthcare professionals for medical diagnosis and treatment.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request or open an Issue for suggestions and improvements.
->>>>>>> af5ad9d3b1e57d0240381dec343be54c8d745957
-
----
-
 ## Example Usage
 
-<<<<<<< HEAD
 ### Web App
 Open the Streamlit app, enter the 8 health parameters, and click the analyze button to get a risk prediction.
 
@@ -375,6 +287,3 @@ This project is intended for educational and screening purposes only. It is not 
 ## License
 
 No explicit license file is present in the repository. If you plan to publish or reuse this project, add a license that matches your intended usage.
-=======
-**⭐ Star this repository if you found it helpful!**
->>>>>>> af5ad9d3b1e57d0240381dec343be54c8d745957
